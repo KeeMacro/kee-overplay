@@ -2,9 +2,9 @@
 
 use egui::DragValue;
 use egui_overlay::EguiOverlay;
-#[cfg(not(target_os = "macos"))]
-use egui_render_three_d::ThreeDBackend as DefaultGfxBackend;
-#[cfg(target_os = "macos")]
+//#[cfg(not(target_os = "macos"))]
+//use egui_render_three_d::ThreeDBackend as DefaultGfxBackend;
+//#[cfg(target_os = "macos")]
 use egui_render_wgpu::WgpuBackend as DefaultGfxBackend;
 
 fn main() {
